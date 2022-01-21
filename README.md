@@ -9,15 +9,20 @@
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  npm i ve-curd -S
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+在main.js安装相关依赖
+1.  需要依赖element-plus
+    import ElementPlus from "element-plus";
+    import "element-plus/dist/index.css";
+    import zhCn from "element-plus/es/locale/lang/zh-cn";
+    import "dayjs/locale/zh-cn";
+    app.use(ElementPlus, { locale: zhCn, size: "medium", });
+    
+2.  import VeCurd from "ve-curd";
+3.  app.use(VeCurd);
 
 #### 参与贡献
 
