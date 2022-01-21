@@ -23,6 +23,7 @@
     
 2.  import VeCurd from "ve-curd";
 3.  app.use(VeCurd);
+4.  更多使用方式查看: [https://www.cnblogs.com/muphy/p/15826954.html](https://www.cnblogs.com/muphy/p/15826954.html)
 
 #### 参与贡献
 
